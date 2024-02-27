@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 const Body = () => {
   const [plantData, setPlantData] = useState(data);
   const [searchText, setSearchText] = useState("");
+  const [filteredPlant, setFilteredPlant] = useState(data);
 
   useEffect(() => {
     fetchData();
@@ -16,6 +17,7 @@ const Body = () => {
     const json = await data.json();
     console.log(json);
     setPlantData(json.data);
+    setFilteredPlant(json.data);
   };
 
   return (
@@ -33,10 +35,11 @@ const Body = () => {
         <button
           className="search-button"
           onClick={() => {
-            const plantData = data.filter((plant) =>
+            const filteredPlant = plantData.filter((plant) =>
               plant.name.toLowerCase().includes(searchText.toLowerCase())
             );
-            setPlantData(plantData);
+            setFilteredPlant(filteredPlant);
+            setSearchText("");
           }}
         >
           <i className="fa-solid fa-magnifying-glass"></i>
@@ -44,7 +47,7 @@ const Body = () => {
       </div>
       <div className="plant-container">
         {/* <PlantCard /> */}
-        {plantData.map((plant) => (
+        {filteredPlant.map((plant) => (
           <PlantCard key={plant.id} plantData={plant} />
         ))}
 

@@ -167,6 +167,14 @@
   margin: 10px 0;
 }
 
+.back-home {
+  text-decoration: none;
+  color: white;
+  background-color: #084d26;
+  padding: 8px;
+  border-radius: 20px;
+}
+
 /* shimmer */
 
 .shimmer {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { API_KEY, API_URL, IMG_URL } from "../../utils/constants";
 import Shimmer from "./Shimmer";
 
@@ -28,6 +28,9 @@ const PlantInfo = () => {
         <h1>{data.name}</h1> <h2>{data.type}</h2>
         <p>{data.about}</p>
       </div>
+      <Link to="/" className="back-home">
+        Back to Home
+      </Link>
     </div>
   );
 };

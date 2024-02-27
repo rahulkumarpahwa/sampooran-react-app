@@ -5,7 +5,10 @@ const Header = () => {
     <div className="header">
       <div className="navbar">
         <div className="logo">
-          <img src={logo} />
+          <Link>
+            {" "}
+            <img src={logo} />
+          </Link>
         </div>
         <div className="nav-items">
           <ul>
