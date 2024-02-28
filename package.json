@@ -5,7 +5,6 @@
   },
   "name": "sampooran-nursery-react",
   "version": "1.0.0",
-  "main": "app.js",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "ansi-regex": "^5.0.1",
@@ -111,6 +110,8 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "rahul Kumar",
