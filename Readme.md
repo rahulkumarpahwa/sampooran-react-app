@@ -1,6 +1,6 @@
 # Introduction
 
-This Plant Nusery App has been created by <Link to="https://linkedin.com/in/rahulkumarpahwa">Rahul Kumar</Link> as a part of learning Frontend development with React.js.
+This Plant Nusery App has been created by [Rahul Kumar](https://linkedin.com/in/rahulkumarpahwa) as a part of learning Frontend development with React.js.
 
 # This App has following features:
 
@@ -23,8 +23,8 @@ This Plant Nusery App has been created by <Link to="https://linkedin.com/in/rahu
 - Canva to create custom logo
 
 # You Can find me at:
-[LinkedIn](https://linkedin.com/in/rahulkumarpahwa) @rahulkumarpahwa 
-[X](https://twitter.com/rahulkumarpahwa) @rahulkumarpahwa
-[Github](https://github.com/rahulkumarpahwa) @rahulkumarpahwa
+- [LinkedIn](https://linkedin.com/in/rahulkumarpahwa) @rahulkumarpahwa 
+- [X](https://twitter.com/rahulkumarpahwa) @rahulkumarpahwa
+- [Github](https://github.com/rahulkumarpahwa) @rahulkumarpahwa
 
 # Check out the live project at : [Sampooran Nusery](https://sampooran-nursery.vercel.app/)
