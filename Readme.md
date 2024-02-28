@@ -23,21 +23,8 @@ This Plant Nusery App has been created by <Link to="https://linkedin.com/in/rahu
 - Canva to create custom logo
 
 # You Can find me at:
+[LinkedIn](https://linkedin.com/in/rahulkumarpahwa) @rahulkumarpahwa 
+[X](https://twitter.com/rahulkumarpahwa) @rahulkumarpahwa
+[Github](https://github.com/rahulkumarpahwa) @rahulkumarpahwa
 
-<Link to="https://linkedin.com/in/rahulkumarpahwa">
-        <i className="fa-brands fa-linkedin"></i> &nbsp; Linkedin -
-        @rahulkumarpahwa
-      </Link>{" "}
-      <Link to="https://github.com/rahulkumarpahwa">
-        <i className="fa-brands fa-square-github"></i> &nbsp; Github -
-        @rahulkumarpahwa
-      </Link>{" "}
-      <Link to="https://twitter.com/rahulkumarpahwa">
-        <i className="fa-brands fa-square-x-twitter"></i> &nbsp; X -
-        @rahulkumarpahwa
-      </Link>
-      <h4>
-        If you haven't read About. click{" "}
-        <Link to="/about">
-          Here
-        </Link>
+# Check out the live project at : [Sampooran Nusery](https://sampooran-nursery.vercel.app/)
